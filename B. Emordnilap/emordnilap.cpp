@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-    int m=1e9+7;
+    long long m=1e9+7;
     int t;
     cin >> t;
     while (t--)
     {
-        int n;
+        long long n;
         cin>>n;
         long long result = 1;
         for (int i = 1; i <= n; i++)
